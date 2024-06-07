@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">">
+    <title>Desarrollo de Portafolio</title>
+</head>
+<body>
+    <!--Inicio-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/LP/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado">INICIO</a></li>
+                            <li><a href="#sobremi">SOBRE MI</a></li>
+                            <li><a href="#servicios">SERVICIOS</a></li>
+                            <li><a href="#portafolio">PORTAFOLIO</a></li>
+                            <li><a href="#contacto">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!--Iconos Menu-->
+                <div id="icono-nav">
+                    <i class="fa-duotone fa-bars"></i>
+                </div>
+                <!--Iconos Redes Sociales-->
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Lucerowii</span>, Ilustradora</h2>
+                <p class="descripcion">Mi nombre es Lucero soy una artista independiente, soy mantenida y soy muy lesbiana
+                    actualmente me encuentro en una situacion amorosa dificil pero soy alguien de muy buen caracter.
+                </p>
+                <a href="#portafolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+    <!--Sobre mi-->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Lucero Wii</span></h2>
+            <h3>Ilustradora</h3>
+            <p>Hola, mi nombre es Lucero Zanches Aguitre, pero me llaman Lucer Wii. Soy de Culiacán y soy hermana de 4. Mis padres son Felipe Zanches y Marcela Aguitre. Dibujo desde primaria y aprendí mi propio estilo en 3ro de Secundaria; hace un año empecé con dibujo digital. Tambien hago música, dibujo con grafito y a color. No olvidar que hago música alternativa. </p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+    <!--Servicios-->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicios">
+                <span class="icono"><i class="fa-solid fa-brush"></i></span>
+                <h4>Ilustración</h4>
+                <hr>
+                <ul class="servicios">
+                   <li>(en lo que consiste)</li>
+                                </ul> 
+            </div>
+            <div class="servicios">
+                <span class="icono"><i class="fa-solid fa-brush"></i></span>
+                <h4>Animación</h4>
+                <hr>
+                <ul class="servicios">
+                  <li>(en lo que consiste)</li>
+                                </ul> 
+            </div>
+            <div class="servicios">
+                <span class="icono"><i class="fa-solid fa-brush"></i></span>
+                <h4>Pinturas en Ozlo</h4>
+                <hr>
+                <ul class="servicios">
+                    <li>(en lo que consiste)</li>
+                                </ul> 
+            </div>
+        </div>
+    </section>
+</body>
+</html>
